@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.contents {
+    display: flex;
+    height: 100vh;
+}
+
+.background-image {
+    height: 100vh;
+}
+
+.logo-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    position: relative;
+    bottom: 75vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.logo-image {
+    height: 15vh;
+}
+
+fieldset {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25vh;
+}
